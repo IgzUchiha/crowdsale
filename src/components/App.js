@@ -3,11 +3,14 @@ import { Container } from 'react-bootstrap';
 import { ethers } from 'ethers'
 
 // Components
-import Navigation from './Navigation';
+// import Navigation from './Navigation';
 import Buy from './Buy';
 import Progress from './Progress';
 import Info from './Info';
 import Loading from './Loading';
+import Links from './Links';
+import Card from './Card';
+import Card2 from './Card2'
 
 // Artifacts
 import CROWDSALE_ABI from '../abis/Crowdsale.json'
@@ -45,6 +48,7 @@ function App() {
     // Fetch account
     const accounts = await window.ethereum.request({ method: 'eth_requestAccounts' });
     const account = ethers.utils.getAddress(accounts[0])
+    console.log(account)
     setAccount(account)
 
     // Fetch account balance
@@ -74,9 +78,10 @@ function App() {
 
   return (
     <Container>
-      <Navigation />
+      <Links/>
+      {/* <Navigation /> */}
 
-      <h1 className='my-4 text-center'>Introducing DApp Token!</h1>
+      <h1 className='my-4 text-center'>Psichedelic Token!</h1>
 
       {isLoading ? (
         <Loading />
@@ -93,6 +98,12 @@ function App() {
       {account && (
         <Info account={account} accountBalance={accountBalance} />
       )}
+      
+      <div className='card-container'>
+        <Card/>
+        <Card2/>
+      </div>
+     
     </Container>
   );
 }
