@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Container } from 'react-bootstrap';
-import { ethers } from 'ethers'
+import { ethers } from 'ethers';
 
 // Components
 // import Navigation from './Navigation';
@@ -10,11 +10,11 @@ import Info from './Info';
 import Loading from './Loading';
 import Links from './Links';
 import Card from './Card';
-import Card2 from './Card2'
+import Card2 from './Card2';
 
 // Artifacts
-import CROWDSALE_ABI from '../abis/Crowdsale.json'
-import TOKEN_ABI from '../abis/Token.json'
+import CROWDSALE_ABI from '../abis/Crowdsale.json';
+import TOKEN_ABI from '../abis/Token.json';
 
 // Config
 import config from '../config.json';
@@ -45,10 +45,12 @@ function App() {
     const crowdsale = new ethers.Contract(config[chainId].crowdsale.address, CROWDSALE_ABI, provider)
     setCrowdsale(crowdsale)
 
+
+
     // Fetch account
     const accounts = await window.ethereum.request({ method: 'eth_requestAccounts' });
     const account = ethers.utils.getAddress(accounts[0])
-    console.log(account)
+    // console.log(account)
     setAccount(account)
 
     // Fetch account balance
