@@ -84,7 +84,7 @@ function App() {
       <Links/>
       {/* <Navigation /> */}
 
-      <h1 className='my-4 text-center'>Psichedelic Token Coming Soon !</h1>
+      <h1 className='my-4 text-center'>Psichedelic Token Coming Soon ...</h1>
 
       {isLoading ? (
         <Loading />
