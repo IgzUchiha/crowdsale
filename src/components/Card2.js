@@ -6,7 +6,7 @@ function Card2() {
     <Card style={{ width: "20rem" }}>
       <Card.Img variant="top" src={logo} />
       <Card.Body>
-        <Card.Title>AIM</Card.Title>
+        <Card.Title>Aim</Card.Title>
         <Card.Text>
            👨‍🔧 
         </Card.Text>
