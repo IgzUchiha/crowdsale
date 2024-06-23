@@ -11,6 +11,7 @@ import Loading from './Loading';
 import Links from './Links';
 import Card from './Card';
 import Card2 from './Card2';
+import Card3 from './Card3';
 
 // Artifacts
 import CROWDSALE_ABI from '../abis/Crowdsale.json';
@@ -83,7 +84,7 @@ function App() {
       <Links/>
       {/* <Navigation /> */}
 
-      <h1 className='my-4 text-center'>Psichedelic Token!</h1>
+      <h1 className='my-4 text-center'>Psichedelic Token Coming Soon !</h1>
 
       {isLoading ? (
         <Loading />
@@ -104,6 +105,7 @@ function App() {
       <div className='card-container'>
         <Card/>
         <Card2/>
+        <Card3/>
       </div>
      
     </Container>
