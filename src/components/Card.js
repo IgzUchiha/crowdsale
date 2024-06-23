@@ -6,7 +6,7 @@ function Cards() {
     <Card style={{ width: "20rem" }}>
       <Card.Img variant="top" src={logo} />
       <Card.Body>
-        <Card.Title>PSI Token</Card.Title>
+        <Card.Title>PSI</Card.Title>
         <Card.Text>
           ➡️ soon ...
         </Card.Text>
