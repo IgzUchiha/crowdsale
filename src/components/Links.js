@@ -21,11 +21,11 @@ function Links() {
             <Nav.Link href="https://Psichedelic.com">Home</Nav.Link>
             <Nav.Link href="https://etherscan.io/txs">EtherScan</Nav.Link>
             <NavDropdown title="More" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Coinbase</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
+              <NavDropdown.Item href="https://www.coinbase.com/">Coinbase</NavDropdown.Item>
+              <NavDropdown.Item href="Psichedelic.com">
                 PSI Goal
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Instagram</NavDropdown.Item>
+              <NavDropdown.Item href="https://www.instagram.com/thecrypto.times/">Instagram</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="https://uniswap.org">
                 UniSwap
