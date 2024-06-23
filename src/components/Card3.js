@@ -10,7 +10,7 @@ function Card3() {
         <Card.Text>
           ?🎵 ♎︎♌︎
         </Card.Text>
-        <Button variant="danger">Click Here to Stay Up to Date</Button>
+        <Button href="https://soundcloud.com/user-113769786/lord8th-x-liljavi40-a-in-your-head?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" variant="danger">Click Here to Stay Up to Date</Button>
       </Card.Body>
     </Card>
   );

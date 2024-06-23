@@ -10,7 +10,7 @@ function Cards() {
         <Card.Text>
           ➡️ soon ...
         </Card.Text>
-        <Button variant="danger">Click Here to Stay Up to Date</Button>
+        <Button href="https://etherscan.io/txs" variant="danger">Click Here to Stay Up to Date</Button>
       </Card.Body>
     </Card>
   );
