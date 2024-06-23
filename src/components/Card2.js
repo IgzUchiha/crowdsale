@@ -8,9 +8,9 @@ function Card2() {
       <Card.Body>
         <Card.Title>Aim</Card.Title>
         <Card.Text>
-           👨‍🔧 
+           L2 👨‍🔧 
         </Card.Text>
-        <Button variant="danger">Click Here to Stay Up to Date</Button>
+        <Button href="https://etherscan.io/txs" variant="danger">Click Here to Stay Up to Date</Button>
       </Card.Body>
     </Card>
   );
